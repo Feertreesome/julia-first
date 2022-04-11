@@ -1,0 +1,40 @@
+.body {background-color: #eeeeee;
+}
+.box {
+  text-align: center;
+  background-color: #eeeeee;
+}
+.centered {
+  display: inline-block;
+  margin: 0;
+}
+.chess-board {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.chess-board th {
+  padding: .5px;
+}
+.chess-board td {
+  border: 1px solid;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  vertical-align: middle;
+}
+.chess-board .white {
+  background: #f0d9b5;
+}
+.chess-board .black {
+  background: #b58863;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: black;
+  top: 29px;
+  left: 69px;
+  position: absolute ;
+}
